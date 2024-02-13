@@ -658,6 +658,14 @@ margin-bottom: 16px;
     display: block;
     margin-bottom: 4px;
 }
+.popup__form-checkblock-label{
+    font-size: 12px;
+    line-height: 1.17; 
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    
+}
 .popup__form-input-cover{
     position: relative;
 
@@ -734,6 +742,7 @@ fill: #F4F4FD;
     align-items: center; 
     justify-content: center;
     fill: transparent; 
+    margin-right: 8px;
 }
 .popup__form-checkblock-svg{
 position: relative;

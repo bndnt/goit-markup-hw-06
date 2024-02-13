@@ -39,7 +39,7 @@ openMobPopup.addEventListener('click', function(e){
     e.preventDefault();
     openMobPopup.classList.add('active');
     mobPopup.classList.add('active');
-    document.body.classList.remove('no-scroll');
+    document.body.classList.add('no-scroll');
 })
 
 closeMobPopup.addEventListener('click', function(e){

@@ -39,10 +39,64 @@
                     <a class="head-info__link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
-        </address>      
+        </address> 
+        <div class="js-mobile__menu mobile__menu">
+            <a id="mobile_menu_toggle" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
         </div>
-      
-       
+
+        </div>
+      <!-- MOBILE POPUP -->
+       <div class="js-mobile-popup mobile-popup">
+        <button  class="js-close-mobile-popup mobile-popup-close popup__close" type="button">
+            <svg class="popup__close-icon" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg>
+        </button>
+        <nav class="mobile-popup__nav">
+            <ul class="mobile-popup__ul">
+                <li class="mobile-popup__nav-li"><a class="mobile-popup__nav-link" href="#">Studio</a></li>
+                <li class="mobile-popup__nav-li"><a class="mobile-popup__nav-link" href="#">Portfolio</a></li>
+                <li class="mobile-popup__nav-li"><a class="mobile-popup__nav-link" href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <address class="mobile-popup__address head__info">
+            <ul class="head__info-ul">
+                <li class="head-info__li">
+                    <a class="head-info__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="head-info__li">
+                    <a class="head-info__link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </address> 
+        <div class="footer__contacts">
+        
+            <ul class="mobile-popup__soc-list team__soc-list">
+                <li class="team__soc-item">
+                    <a href="#" class="footer__soc-link team__soc-link">
+                        <svg class="footer__icon" width="24" height="24"><use href="./images/icons.svg#icon-fsm1"></use></svg>                              
+                    </a>
+                </li>
+                <li class="team__soc-item">
+                    <a href="#" class="footer__soc-link team__soc-link">
+                        <svg class="footer__icon" width="24" height="24"><use href="./images/icons.svg#icon-fsm3"></use></svg>                              
+                    </a>
+                </li>
+                <li class="team__soc-item">
+                    <a href="#" class="footer__soc-link team__soc-link">
+                        <svg class="footer__icon" width="24" height="24"><use href="./images/icons.svg#icon-fsm3"></use></svg>                              
+                    </a>
+                </li>
+                <li class="team__soc-item">
+                    <a href="#" class="footer__soc-link team__soc-link">
+                        <svg class="footer__icon" width="24" height="24"><use href="./images/icons.svg#icon-fsm4"></use></svg>                              
+                    </a>
+                </li>
+            </ul>
+        </div>   
+       </div>
       </header>
       <main>
         <section class="section advertisement">
@@ -432,7 +486,7 @@
                                     <span class="popup__form-checkblock-span">
                                         <svg class="popup__form-checkblock-svg" width="10" height="8"><use href="./images/icons.svg#icon-chk"></use></svg>                              
                                     </span>
-                                    I accept the terms and conditions of the <a href="" class="popup__form-check-link">Privacy Policy</a>
+                                    <span class="popup__form-label-span-text">I accept the terms and conditions of the <a href="" class="popup__form-check-link">Privacy Policy</a></span>
                                 </label>
                             </div>
                             <button class="js-popup__form-btn popup__form-btn">Send</button>

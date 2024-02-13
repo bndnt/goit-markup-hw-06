@@ -1050,7 +1050,7 @@ background-color: white;
     width: 16px;
     height: 16px;
     margin-right: 8px;
-    display: block;
+    
 }
 .popup__form-label-span-text{
     width: calc(100% - 16px - 8px);

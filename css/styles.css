@@ -727,7 +727,7 @@ outline: transparent;
 .popup__form-checkblock-input{
     
 }
-.popup__form-checkblock-input:checked + .popup__form-label .popup__form-checkblock-span{
+.popup__form-checkblock-input:checked + .popup__form-checkblock-label .popup__form-checkblock-span{
 background-color: #404bbf;
 border: none; 
 fill: #F4F4FD;

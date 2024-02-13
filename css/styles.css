@@ -563,14 +563,13 @@ margin: 16px;
 .footer-form__btn:hover{ 
     border-color: #404BBF;
 }
-.footer-form__label{
-   
-}
+
 .footer-form__icon{
     margin-left: 16px;
 }
 
 .back-drop{
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -580,10 +579,12 @@ margin: 16px;
     /* display: none; */
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.back-drop.is-open{
+
+.back-drop.is-open.active{
     display: block;
 }
 .popup{
+    display: none;
     padding: 72px 24px 24px 24px; 
     position: absolute;
     top: 50%; 
@@ -595,6 +596,9 @@ margin: 16px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2); 
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.popup.active{
+    display: block;
 }
 .popup__cover{
     position: relative;

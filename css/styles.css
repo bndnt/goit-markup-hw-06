@@ -499,7 +499,7 @@ letter-spacing: 0.32px;
     margin-right: 120px;
 }
 .footer__contacts{
-    /* margin-right: 25px; */
+    margin-right: 80px;
 }
 .footer__contacts-text{
 color:  #FFF;
@@ -902,6 +902,9 @@ background-color: white;
         flex-direction: column;
         align-items: flex-start;
     }
+    .head-info__link{
+        font-size: 12px;
+    }
     .advertisement{
         padding: 112px 0;
         background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/herobgt.jpg);
@@ -912,12 +915,18 @@ background-color: white;
     .advertisement__title{
         margin-bottom: 36px;
     }
+    
     .methody{
         padding: 96px 0 24px;
     }
     .methody__block{
         flex-basis: calc((100% - 3 * 24px) / 2);
         margin-bottom: 72px;
+    }
+    .methody__title{
+        font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.02em;
     }
     .methody__text{
         letter-spacing: 0.02em;
@@ -944,17 +953,20 @@ background-color: white;
         flex-wrap: wrap;
         align-items: baseline;
         justify-content: flex-start;
-        margin: 0 -48px -64px;
+        margin: 0 -24px -64px;
     }
     .team__block{
-        margin: 0 24px 64px;
-        flex-basis: calc((100% - 3 * 24px) / 4);
+        margin: 0 12px 64px;
+        flex-basis: calc((100% - 2 * 12px) / 4);
     }
     .team__block:last-child{
-        margin: 0 24px 64px;
+        margin: 0 12px 64px;
     }
     .portfolio{
         padding: 96px 0;
+    }
+    .portfolio .container{
+        max-width: 768px;
     }
     .portfolio__list{
         width: calc((100% - 24px) / 2);
@@ -962,12 +974,21 @@ background-color: white;
     .footer{
         padding: 96px 93px;
     }
+    .footer .container{
+        max-width: 768px;
+    }
     .footer__flex{
         flex-wrap: wrap;
         justify-content: start;
     }
     .footer__info-cover{
         margin:0  24px 72px 0;
+    }
+    .footer__contacts{
+        margin-right: 0;
+    }
+    .footer__contacts-text{
+        margin: 16px 0;
     }
 }
 

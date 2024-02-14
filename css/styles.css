@@ -331,7 +331,12 @@ margin-bottom: 8px;
 color: #2e2f42;
 }
 .methody__text{
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 .team{
     background-color: #f4f4fd;
@@ -899,6 +904,10 @@ background-color: white;
     }
     .advertisement{
         padding: 112px 0;
+        background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/herobgt.jpg);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
     .advertisement__title{
         margin-bottom: 36px;
@@ -909,6 +918,14 @@ background-color: white;
     .methody__block{
         flex-basis: calc((100% - 3 * 24px) / 2);
         margin-bottom: 72px;
+    }
+    .methody__text{
+        letter-spacing: 0.02em;
+        font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
     }
     .methody__flex{
         flex-wrap: wrap;
@@ -966,19 +983,34 @@ background-color: white;
 }
 .advertisement{
     padding: 72px 0;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/herobg-mob.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .advertisement__title{
     font-size: 36px;
-    max-width: 288px;
+    max-width: 223px;
     margin-bottom: 72px;
 }
 .methody{
     margin-bottom: 96px;
 }
+.methody__title{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+
+}
+.methody__text{
+    text-align: left;
+}
 
 .methody__block{
     flex-basis: content;
     text-align: center;
+    margin-right: 0;
 }
 .methody__block:last-child{
     margin-bottom: 0;
@@ -1007,10 +1039,15 @@ background-color: white;
 .portfolio__list{
     width: 100%;
 }
+.portfolio__list-top-cover{
+    height: 280px;
+}
 .portfolio__list-top-cover img{
     width: 100%;
     height: 280px;
     object-fit: cover;
+    object-position: left;
+    height: 320px;
 }
 .footer{
     padding: 96px 0;
@@ -1033,6 +1070,9 @@ background-color: white;
 }
 .footer__contacts-text{
     text-align: center;
+}
+.footer__contacts-text{
+    margin-top: 0;
 }
 .footer-form{
     flex-direction: column;
@@ -1059,6 +1099,10 @@ background-color: white;
     display: flex;
 
 }
+.popup__form-checkblock-label{
+    display: flex;
+    align-items: center;
+}
 .popup__form-checkblock-span{
     width: 16px;
     height: 16px;
@@ -1073,3 +1117,18 @@ background-color: white;
 }
    
 }
+@media (min-resolution: 192dpi) {
+    .advertisement {
+      background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/herobg@2x.jpg');
+    }
+  }
+  @media (max-width: 1158px) and (min-resolution: 192dpi) {
+    .advertisement {
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/herobgt@2x.jpg');
+      }
+  }
+  @media (max-width: 768px) and (min-resolution: 192dpi) {
+    .advertisement {
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/herobg-mob@2x.jpg');
+      }
+  }

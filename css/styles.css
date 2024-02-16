@@ -902,6 +902,7 @@ background-color: white;
   
   
 @media (max-width: 1158px){
+
     .container{
         /* max-width: 768px; */
     }
@@ -1007,6 +1008,9 @@ letter-spacing: 0.02em;
 }
 
 @media (max-width: 768px){
+.head .container{
+    max-width: 100%;
+}
 .container{
     max-width: 320px;
 }
@@ -1141,8 +1145,8 @@ letter-spacing: 0.02em;
     margin: 0 auto;
 }
 .popup{
-    width: calc(100% - 32px);
-    height: calc(100vh - 17px);
+    width: 288px;
+    height: 623px;
     padding: 72px 16px 24px;
 }
 .popup__form-label{

@@ -1011,6 +1011,9 @@ letter-spacing: 0.02em;
 .head .container{
     max-width: 100%;
 }
+.footer .container{
+    max-width: 320px;
+}
 .container{
     max-width: 320px;
 }

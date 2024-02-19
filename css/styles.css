@@ -509,7 +509,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin: 16px 0;
+margin: 0 0 16px;
 
 }
 .footer__soc-list{
@@ -995,10 +995,10 @@ letter-spacing: 0.02em;
         width: calc((100% - 24px) / 2);
     }
     .footer{
-        padding: 96px 93px;
+        padding: 96px 0;
     }
     .footer .container{
-        max-width: 768px;
+        max-width: 597px;
     }
     .footer__flex{
         flex-wrap: wrap;
@@ -1016,9 +1016,9 @@ letter-spacing: 0.02em;
 }
 
 @media (max-width: 768px){
-.head .container{
+/* .head .container{
     max-width: 100%;
-}
+} */
 .footer .container{
     max-width: 320px;
 }
@@ -1036,7 +1036,7 @@ letter-spacing: 0.02em;
 }
 .mobile-popup__address{
     display: block;
-    margin-bottom: auto;
+    margin-bottom: 48px;
 }
 
 .advertisement{
